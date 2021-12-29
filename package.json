@@ -1,0 +1,19 @@
+{
+  "name": "moderncss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/style.css -o ./public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  },
+  "dependencies": {
+    "init": "^0.1.2",
+    "postcss": "^8.4.5"
+  }
+}
