@@ -4,8 +4,10 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {},
-    color:{
+    colors:{
       darkbrown:'#0f171e',
+      white:"white",
+      blue:"#0F79AF",
    }
   },
   
